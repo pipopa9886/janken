@@ -234,7 +234,7 @@ else:
                 with open("result_english.txt","w",encoding="utf-8")as wr:
                     wr.write(hij)
             print("----------------------------------------------------------")
-        #違うプレイヤーでやる?
+        #Play another player?
         print("----------------------------------------------------------")
         print("Another player?")
         print("0:Yes,1:No")
