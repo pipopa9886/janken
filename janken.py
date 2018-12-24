@@ -13,6 +13,7 @@ player=0
 while player==0:
     with open("name.txt","r",encoding="utf-8") as re:
         name=re.read()
+#pcのname.txtを読み込む
 
     print("あなたは{}さんですか？".format(name))
     print("はい:0,いいえ:1")
